@@ -1,4 +1,4 @@
-## Function arguments
+## Function Arguments
 
 ### If a function has more than 3 arguments, put them into an object
 **Bad**
@@ -9,7 +9,7 @@ const func = (foo, bar, baz, qux, quux) => {}
 ```js
 const func = ({ foo, bar, baz, qux, quux }) => {}
 ```
-This help futureproof your function, you can add or remove any number of parameters easily.
+This help futureproof your function, you can add or remove any number of parameters easily, without having to change all of the code that used this function.
 
 You also don't need to remember the parameters order.
 
