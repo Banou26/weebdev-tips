@@ -9,7 +9,7 @@ const func = (foo, bar, baz, qux, quux) => {}
 ```js
 const func = ({ foo, bar, baz, qux, quux }) => {}
 ```
-This help futureproof your function, you can add or remove any number of paramters easily.
+This help futureproof your function, you can add or remove any number of parameters easily.
 
 You also don't need to remember the parameters order.
 
