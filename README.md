@@ -14,3 +14,5 @@ This help futureproof your function, you can add or remove any number of paramet
 You also don't need to remember the parameters order.
 
 And this describe the parameters to the function called as you now have to use the arguments property names.
+
+[ESLint rule](https://eslint.org/docs/rules/max-params)
