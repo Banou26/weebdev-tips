@@ -1,6 +1,10 @@
-## Function Arguments
+## Contents
+- [Function](#function)
+  - [Max parameters](#max-parameters)
 
-### If a function has more than 3 arguments, put them into an object
+## Function
+### Max parameters
+#### If a function has more than 3 arguments, put them into an object
 **Bad**
 ```js
 const func = (foo, bar, baz, qux, quux) => {}
