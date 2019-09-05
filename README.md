@@ -1,7 +1,18 @@
 ## Contents
+- [Tools](#tools)
+  - [Babel](#babel)
 - [Function](#function)
   - [Name](#name)
   - [Max parameters](#max-parameters)
+
+## Tools
+### Babel
+#### Use babel for browser compatibility and cool features
+[Babel](https://babeljs.io/) allow you to use [ES](https://en.wikipedia.org/wiki/ECMAScript) features that aren't widely supported by [transpiling](https://en.wikipedia.org/wiki/Source-to-source_compiler) your code.
+
+*It even allow you to even use features that aren't yet standardised into [ES](https://en.wikipedia.org/wiki/ECMAScript), these are called proposals, this is pretty cool but be careful since your code could become invalid if you used a proposal that didn't get standardised*.
+
+Babel also uses [core-js](https://github.com/zloirock/core-js) to [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) APIs that aren't widely supported either.
 
 ## Function
 ### Name
