@@ -24,6 +24,8 @@ By naming your functions based on what they do, you convey a meaningful sense to
 
 You also have less risks to wander off and make your function do things it shouldn't do, increasing it's complexity.
 
+Doing this also makes your code more re-usable, by making it composable.
+
 ### Max parameters
 #### If a function has more than 3 arguments, put them into an object
 **Bad**
