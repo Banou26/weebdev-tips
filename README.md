@@ -4,6 +4,7 @@
 - [Function](#function)
   - [Name](#name)
   - [Max parameters](#max-parameters)
+  - [Boolean naming](#boolean-naming)
 
 ## Tools
 ### Babel
@@ -54,3 +55,18 @@ You also don't need to remember the parameters order.
 And this describe the parameters to the function called as you now have to use the arguments property names.
 
 [ESLint rule](https://eslint.org/docs/rules/max-params)
+
+### Boolean naming
+#### Prepend the variable name of a boolean with 'is'
+**Bad**
+```js
+const dog = true
+const brown = false
+```
+**Good**
+```js
+const isDog = true
+const isBrown = false
+```
+
+It's a simple change that reads much more naturally.
