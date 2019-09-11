@@ -3,6 +3,7 @@
   - [Babel](#babel)
 - [Function](#function)
   - [Name](#name)
+  - [Parameters order](#parameters-order)
   - [Max parameters](#max-parameters)
   - [Boolean naming](#boolean-naming)
 
@@ -37,6 +38,19 @@ By naming your functions based on what they do, you convey a meaningful sense to
 You also have less risks to wander off and make your function do things it shouldn't do, increasing it's complexity.
 
 Doing this also makes your code more re-usable, by making it composable.
+
+### Parameters order
+#### Always put function arguments last
+**Bad**
+```js
+const func = (callback, foo) => {}
+```
+**Good**
+```js
+const func = (foo, callback) => {}
+```
+Passing function arguments in last allow you to directly understand what is happening when calling this function.
+One good example of this not applied is the ``setTimeout`` function, which first pass the function, and then the timeout argument, so if your function is 50lines long, you have to scroll down it all to finally be able to understand when it will actually be called.
 
 ### Max parameters
 #### If a function has more than 3 arguments, put them into an object
