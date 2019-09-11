@@ -1,8 +1,8 @@
 ## Contents
 - [Tools](#tools)
   - [Babel](#babel)
-- [Function](#function)
-  - [Name](#name)
+- [Code](#code)
+  - [Function naming](#function-naming)
   - [Parameters order](#parameters-order)
   - [Max parameters](#max-parameters)
   - [Boolean naming](#boolean-naming)
@@ -16,8 +16,9 @@
 
 Babel also uses [core-js](https://github.com/zloirock/core-js) to [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming)) APIs that aren't widely supported either.
 
-## Function
-### Name
+## Code
+
+### Function naming
 #### Try to name the function based on what it does
 **Bad**
 ```js
@@ -50,6 +51,7 @@ const func = (callback, foo) => {}
 const func = (foo, callback) => {}
 ```
 Passing function arguments in last allow you to directly understand what is happening when calling this function.
+
 One good example of this not applied is the ``setTimeout`` function, which first pass the function, and then the timeout argument, so if your function is 50lines long, you have to scroll down it all to finally be able to understand when it will actually be called.
 
 ### Max parameters
