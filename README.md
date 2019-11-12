@@ -1,3 +1,5 @@
+## Just use https://github.com/ryanmcdermott/clean-code-javascript instead lulz
+
 ## Contents
 - [Tools](#tools)
   - [Babel](#babel)
